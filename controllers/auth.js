@@ -2,7 +2,7 @@ import Joi from "joi";
 import sanitize from "mongo-sanitize";
 import getConfigs from "../config/config.js";
 import { create, verify } from "../utils/authServices.js";
-import UserModel from "../database/schema/User.js";
+import UserModel from "../database/schema/user.js";
 
 const Configs = getConfigs();
 

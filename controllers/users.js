@@ -1,5 +1,5 @@
 import ComplaintModel from "../database/schema/complaint.js";
-import UserModel from "../database/schema/User.js";
+import UserModel from "../database/schema/user.js";
 
 export const getLeaderboardAndStats = async (req, res) => {
   try {
