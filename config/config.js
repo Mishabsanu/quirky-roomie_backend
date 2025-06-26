@@ -7,7 +7,10 @@ const getConfigs = () => {
       logStyle: "dev",
     },
     cors: {
-      origin: ["http://localhost:5173"],
+      origin: [
+        "http://localhost:5173",
+        "https://quirky-roomie-frontend-two.vercel.app",
+      ],
       credentials: true,
     },
     server: {
